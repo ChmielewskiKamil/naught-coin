@@ -7,8 +7,6 @@ import "./NaughtCoin.sol";
 contract TestNaughtCoin {
     uint256 counter;
 
-    // NaughtCoin token;
-
     function increment() public {
         counter++;
     }
