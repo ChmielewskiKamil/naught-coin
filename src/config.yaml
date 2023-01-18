@@ -5,3 +5,4 @@ corpusDir: corpus
 
 testLimit: 50000 
 multi-abi: true
+format: text
