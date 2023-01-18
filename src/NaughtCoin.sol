@@ -13,8 +13,6 @@ contract NaughtCoin is ERC20 {
 
     constructor(address _player) ERC20("NaughtCoin", "0x0") {
         player = _player;
-        // @audit big numbers are hard to read
-        // consider separating the digits with undrscores
         INITIAL_SUPPLY = 1000000 * (10**uint256(decimals()));
         // _totalSupply = INITIAL_SUPPLY;
         // _balances[player] = INITIAL_SUPPLY;
